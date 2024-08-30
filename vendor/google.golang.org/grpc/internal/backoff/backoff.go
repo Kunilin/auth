@@ -23,11 +23,10 @@
 package backoff
 
 import (
+	"context"
 	"errors"
 	"math/rand"
 	"time"
-
-	"context"
 
 	grpcbackoff "google.golang.org/grpc/backoff"
 )

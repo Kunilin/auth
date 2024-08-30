@@ -24,17 +24,15 @@
 package transport
 
 import (
+	"context"
 	"errors"
+	"fmt"
 	"io"
 	"net"
 	"net/http"
 	"strings"
 	"sync"
 	"time"
-
-	"fmt"
-
-	"context"
 
 	"golang.org/x/net/http2"
 	"google.golang.org/grpc/codes"

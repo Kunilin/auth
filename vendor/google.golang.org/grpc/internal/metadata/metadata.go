@@ -22,9 +22,8 @@
 package metadata
 
 import (
-	"strings"
-
 	"fmt"
+	"strings"
 
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/resolver"

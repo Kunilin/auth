@@ -20,7 +20,6 @@ package gracefulswitch
 
 import (
 	"encoding/json"
-
 	"fmt"
 
 	"google.golang.org/grpc/balancer"

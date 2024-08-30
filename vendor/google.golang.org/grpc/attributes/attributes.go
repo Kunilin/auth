@@ -26,9 +26,8 @@
 package attributes
 
 import (
-	"strings"
-
 	"fmt"
+	"strings"
 )
 
 // Attributes is an immutable struct for storing and retrieving generic

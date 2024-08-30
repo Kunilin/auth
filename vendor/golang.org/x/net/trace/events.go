@@ -6,6 +6,7 @@ package trace
 
 import (
 	"bytes"
+	"fmt"
 	"html/template"
 	"io"
 	"log"
@@ -18,8 +19,6 @@ import (
 	"sync/atomic"
 	"text/tabwriter"
 	"time"
-
-	"fmt"
 )
 
 const maxEventsPerLog = 100

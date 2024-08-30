@@ -21,12 +21,10 @@
 package peer
 
 import (
+	"context"
+	"fmt"
 	"net"
 	"strings"
-
-	"fmt"
-
-	"context"
 
 	"google.golang.org/grpc/credentials"
 )

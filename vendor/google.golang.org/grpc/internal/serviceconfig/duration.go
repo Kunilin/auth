@@ -20,12 +20,11 @@ package serviceconfig
 
 import (
 	"encoding/json"
+	"fmt"
 	"math"
 	"strconv"
 	"strings"
 	"time"
-
-	"fmt"
 )
 
 // Duration defines JSON marshal and unmarshal methods to conform to the

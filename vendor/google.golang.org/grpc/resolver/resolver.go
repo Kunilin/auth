@@ -21,13 +21,11 @@
 package resolver
 
 import (
+	"context"
+	"fmt"
 	"net"
 	"net/url"
 	"strings"
-
-	"fmt"
-
-	"context"
 
 	"google.golang.org/grpc/attributes"
 	"google.golang.org/grpc/credentials"

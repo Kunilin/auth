@@ -19,11 +19,10 @@
 package transport
 
 import (
+	"fmt"
 	"math"
 	"sync"
 	"sync/atomic"
-
-	"fmt"
 )
 
 // writeQuota is a soft limit on the amount of data a stream can

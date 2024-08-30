@@ -19,9 +19,8 @@
 package channelz
 
 import (
-	"sync/atomic"
-
 	"fmt"
+	"sync/atomic"
 
 	"google.golang.org/grpc/connectivity"
 )

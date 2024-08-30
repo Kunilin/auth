@@ -19,11 +19,10 @@
 package channelz
 
 import (
+	"fmt"
 	"sort"
 	"sync"
 	"time"
-
-	"fmt"
 )
 
 // entry represents a node in the channelz database.

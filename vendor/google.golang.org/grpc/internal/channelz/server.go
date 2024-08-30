@@ -19,9 +19,8 @@
 package channelz
 
 import (
-	"sync/atomic"
-
 	"fmt"
+	"sync/atomic"
 )
 
 // Server is the channelz representation of a server.

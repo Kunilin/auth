@@ -20,11 +20,10 @@ package internal
 
 import (
 	"encoding/json"
+	"fmt"
 	"io"
 	"log"
 	"os"
-
-	"fmt"
 )
 
 // LoggerV2 does underlying logging work for grpclog.

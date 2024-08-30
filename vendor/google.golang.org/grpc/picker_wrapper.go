@@ -19,12 +19,10 @@
 package grpc
 
 import (
+	"context"
+	"fmt"
 	"io"
 	"sync/atomic"
-
-	"fmt"
-
-	"context"
 
 	"google.golang.org/grpc/balancer"
 	"google.golang.org/grpc/codes"

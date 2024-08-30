@@ -10,9 +10,11 @@ import (
 	"bufio"
 	"bytes"
 	"compress/gzip"
+	"context"
 	"crypto/rand"
 	"crypto/tls"
 	"errors"
+	"fmt"
 	"io"
 	"io/fs"
 	"log"
@@ -30,10 +32,6 @@ import (
 	"sync"
 	"sync/atomic"
 	"time"
-
-	"fmt"
-
-	"context"
 
 	"golang.org/x/net/http/httpguts"
 	"golang.org/x/net/http2/hpack"

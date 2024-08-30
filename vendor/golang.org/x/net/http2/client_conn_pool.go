@@ -7,12 +7,11 @@
 package http2
 
 import (
+	"context"
 	"crypto/tls"
 	"errors"
 	"net/http"
 	"sync"
-
-	"context"
 )
 
 // ClientConnPool manages a pool of HTTP/2 client connections.

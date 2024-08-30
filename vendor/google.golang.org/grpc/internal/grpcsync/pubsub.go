@@ -19,9 +19,8 @@
 package grpcsync
 
 import (
-	"sync"
-
 	"context"
+	"sync"
 )
 
 // Subscriber represents an entity that is subscribed to messages published on

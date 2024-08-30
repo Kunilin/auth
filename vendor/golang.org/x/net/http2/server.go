@@ -28,8 +28,10 @@ package http2
 import (
 	"bufio"
 	"bytes"
+	"context"
 	"crypto/tls"
 	"errors"
+	"fmt"
 	"io"
 	"log"
 	"math"
@@ -44,10 +46,6 @@ import (
 	"strings"
 	"sync"
 	"time"
-
-	"fmt"
-
-	"context"
 
 	"golang.org/x/net/http/httpguts"
 	"golang.org/x/net/http2/hpack"

@@ -20,11 +20,10 @@
 package internal
 
 import (
+	"context"
 	"errors"
 	"net"
 	"time"
-
-	"context"
 )
 
 // NetResolver groups the methods on net.Resolver that are used by the DNS

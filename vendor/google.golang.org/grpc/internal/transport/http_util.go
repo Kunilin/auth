@@ -22,6 +22,7 @@ import (
 	"bufio"
 	"encoding/base64"
 	"errors"
+	"fmt"
 	"io"
 	"math"
 	"net"
@@ -32,8 +33,6 @@ import (
 	"sync"
 	"time"
 	"unicode/utf8"
-
-	"fmt"
 
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/hpack"

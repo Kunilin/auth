@@ -20,16 +20,14 @@ package transport
 
 import (
 	"bufio"
+	"context"
 	"encoding/base64"
+	"fmt"
 	"io"
 	"net"
 	"net/http"
 	"net/http/httputil"
 	"net/url"
-
-	"fmt"
-
-	"context"
 
 	"google.golang.org/grpc/internal"
 )

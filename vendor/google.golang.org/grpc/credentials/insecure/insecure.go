@@ -21,9 +21,8 @@
 package insecure
 
 import (
-	"net"
-
 	"context"
+	"net"
 
 	"google.golang.org/grpc/credentials"
 )

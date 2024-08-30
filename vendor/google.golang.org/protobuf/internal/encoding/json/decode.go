@@ -6,11 +6,10 @@ package json
 
 import (
 	"bytes"
+	"fmt"
 	"io"
 	"regexp"
 	"unicode/utf8"
-
-	"fmt"
 
 	"google.golang.org/protobuf/internal/errors"
 )

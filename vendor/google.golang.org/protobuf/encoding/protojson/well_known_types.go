@@ -6,12 +6,11 @@ package protojson
 
 import (
 	"bytes"
+	"fmt"
 	"math"
 	"strconv"
 	"strings"
 	"time"
-
-	"fmt"
 
 	"google.golang.org/protobuf/internal/encoding/json"
 	"google.golang.org/protobuf/internal/errors"

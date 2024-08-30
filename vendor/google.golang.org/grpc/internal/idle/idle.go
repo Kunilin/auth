@@ -21,12 +21,11 @@
 package idle
 
 import (
+	"fmt"
 	"math"
 	"sync"
 	"sync/atomic"
 	"time"
-
-	"fmt"
 )
 
 // For overriding in unit tests.

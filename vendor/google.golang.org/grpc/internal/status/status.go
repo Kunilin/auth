@@ -29,7 +29,6 @@ package status
 
 import (
 	"errors"
-
 	"fmt"
 
 	spb "google.golang.org/genproto/googleapis/rpc/status"

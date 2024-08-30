@@ -19,9 +19,8 @@
 package stats
 
 import (
-	"net"
-
 	"context"
+	"net"
 )
 
 // ConnTagInfo defines the relevant information needed by connection context tagger.

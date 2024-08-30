@@ -19,11 +19,9 @@
 package grpc
 
 import (
-	"sync"
-
-	"fmt"
-
 	"context"
+	"fmt"
+	"sync"
 
 	"google.golang.org/grpc/balancer"
 	"google.golang.org/grpc/connectivity"

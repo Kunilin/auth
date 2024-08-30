@@ -19,12 +19,11 @@
 package binarylog
 
 import (
+	"context"
 	"net"
 	"strings"
 	"sync/atomic"
 	"time"
-
-	"context"
 
 	binlogpb "google.golang.org/grpc/binarylog/grpc_binarylog_v1"
 	"google.golang.org/grpc/metadata"

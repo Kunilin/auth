@@ -21,9 +21,8 @@
 package binarylog
 
 import (
-	"os"
-
 	"fmt"
+	"os"
 
 	"google.golang.org/grpc/grpclog"
 	"google.golang.org/grpc/internal/grpcutil"

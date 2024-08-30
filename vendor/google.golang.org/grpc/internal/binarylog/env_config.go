@@ -20,11 +20,10 @@ package binarylog
 
 import (
 	"errors"
+	"fmt"
 	"regexp"
 	"strconv"
 	"strings"
-
-	"fmt"
 )
 
 // NewLoggerFromConfigString reads the string and build a logger. It can be used

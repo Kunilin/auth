@@ -19,6 +19,7 @@
 package grpc
 
 import (
+	"context"
 	"errors"
 	"io"
 	"math"
@@ -26,8 +27,6 @@ import (
 	"strconv"
 	"sync"
 	"time"
-
-	"context"
 
 	"google.golang.org/grpc/balancer"
 	"google.golang.org/grpc/codes"

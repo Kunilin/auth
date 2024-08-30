@@ -19,7 +19,9 @@
 package grpc
 
 import (
+	"context"
 	"errors"
+	"fmt"
 	"math"
 	"net/url"
 	"slices"
@@ -27,10 +29,6 @@ import (
 	"sync"
 	"sync/atomic"
 	"time"
-
-	"fmt"
-
-	"context"
 
 	"google.golang.org/grpc/balancer"
 	"google.golang.org/grpc/balancer/base"

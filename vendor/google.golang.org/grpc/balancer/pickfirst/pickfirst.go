@@ -22,9 +22,8 @@ package pickfirst
 import (
 	"encoding/json"
 	"errors"
-	"math/rand"
-
 	"fmt"
+	"math/rand"
 
 	"google.golang.org/grpc/balancer"
 	"google.golang.org/grpc/connectivity"

@@ -22,10 +22,9 @@
 package stats // import "google.golang.org/grpc/stats"
 
 import (
+	"context"
 	"net"
 	"time"
-
-	"context"
 
 	"google.golang.org/grpc/metadata"
 )

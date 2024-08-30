@@ -19,10 +19,9 @@
 package grpc
 
 import (
+	"context"
 	"strings"
 	"sync"
-
-	"context"
 
 	"google.golang.org/grpc/internal/channelz"
 	"google.golang.org/grpc/internal/grpcsync"

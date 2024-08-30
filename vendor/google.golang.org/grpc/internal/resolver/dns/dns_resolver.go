@@ -21,7 +21,9 @@
 package dns
 
 import (
+	"context"
 	"encoding/json"
+	"fmt"
 	"math/rand"
 	"net"
 	"os"
@@ -29,10 +31,6 @@ import (
 	"strings"
 	"sync"
 	"time"
-
-	"fmt"
-
-	"context"
 
 	grpclbstate "google.golang.org/grpc/balancer/grpclb/state"
 	"google.golang.org/grpc/grpclog"

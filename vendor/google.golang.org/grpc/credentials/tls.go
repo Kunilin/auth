@@ -19,15 +19,13 @@
 package credentials
 
 import (
+	"context"
 	"crypto/tls"
 	"crypto/x509"
+	"fmt"
 	"net"
 	"net/url"
 	"os"
-
-	"fmt"
-
-	"context"
 
 	"google.golang.org/grpc/grpclog"
 	credinternal "google.golang.org/grpc/internal/credentials"

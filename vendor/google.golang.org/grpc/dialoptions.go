@@ -19,11 +19,10 @@
 package grpc
 
 import (
+	"context"
 	"net"
 	"net/url"
 	"time"
-
-	"context"
 
 	"google.golang.org/grpc/backoff"
 	"google.golang.org/grpc/channelz"

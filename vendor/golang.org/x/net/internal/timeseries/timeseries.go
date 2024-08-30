@@ -6,10 +6,9 @@
 package timeseries // import "golang.org/x/net/internal/timeseries"
 
 import (
+	"fmt"
 	"log"
 	"time"
-
-	"fmt"
 )
 
 const (

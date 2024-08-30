@@ -19,7 +19,9 @@
 package grpc
 
 import (
+	"context"
 	"errors"
+	"fmt"
 	"io"
 	"math"
 	"net"
@@ -30,10 +32,6 @@ import (
 	"sync"
 	"sync/atomic"
 	"time"
-
-	"fmt"
-
-	"context"
 
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/credentials"

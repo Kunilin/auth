@@ -22,7 +22,6 @@ package pretty
 import (
 	"bytes"
 	"encoding/json"
-
 	"fmt"
 
 	"google.golang.org/protobuf/encoding/protojson"

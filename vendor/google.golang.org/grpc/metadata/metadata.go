@@ -22,11 +22,9 @@
 package metadata // import "google.golang.org/grpc/metadata"
 
 import (
-	"strings"
-
-	"fmt"
-
 	"context"
+	"fmt"
+	"strings"
 
 	"google.golang.org/grpc/internal"
 )

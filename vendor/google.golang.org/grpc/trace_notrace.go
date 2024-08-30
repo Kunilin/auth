@@ -25,9 +25,8 @@ package grpc
 // yield 10-15% improvements in binary size when tracing is not needed.
 
 import (
-	"fmt"
-
 	"context"
+	"fmt"
 )
 
 type notrace struct{}

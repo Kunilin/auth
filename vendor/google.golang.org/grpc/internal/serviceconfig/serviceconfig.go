@@ -21,9 +21,8 @@ package serviceconfig
 
 import (
 	"encoding/json"
-	"time"
-
 	"fmt"
+	"time"
 
 	"google.golang.org/grpc/balancer"
 	"google.golang.org/grpc/codes"

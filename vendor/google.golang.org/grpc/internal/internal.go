@@ -21,9 +21,8 @@
 package internal
 
 import (
-	"time"
-
 	"context"
+	"time"
 
 	"google.golang.org/grpc/connectivity"
 	"google.golang.org/grpc/serviceconfig"

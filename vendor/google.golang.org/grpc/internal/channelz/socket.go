@@ -19,10 +19,9 @@
 package channelz
 
 import (
+	"fmt"
 	"net"
 	"sync/atomic"
-
-	"fmt"
 
 	"google.golang.org/grpc/credentials"
 )

@@ -20,7 +20,6 @@ package base
 
 import (
 	"errors"
-
 	"fmt"
 
 	"google.golang.org/grpc/balancer"

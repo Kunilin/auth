@@ -21,11 +21,10 @@
 package syscall
 
 import (
+	"fmt"
 	"net"
 	"syscall"
 	"time"
-
-	"fmt"
 
 	"golang.org/x/sys/unix"
 	"google.golang.org/grpc/grpclog"

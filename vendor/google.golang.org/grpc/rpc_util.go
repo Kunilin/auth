@@ -20,16 +20,14 @@ package grpc
 
 import (
 	"compress/gzip"
+	"context"
 	"encoding/binary"
+	"fmt"
 	"io"
 	"math"
 	"strings"
 	"sync"
 	"time"
-
-	"fmt"
-
-	"context"
 
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/credentials"

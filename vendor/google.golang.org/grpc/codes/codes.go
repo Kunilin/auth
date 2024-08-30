@@ -21,9 +21,8 @@
 package codes // import "google.golang.org/grpc/codes"
 
 import (
-	"strconv"
-
 	"fmt"
+	"strconv"
 )
 
 // A Code is a status code defined according to the [gRPC documentation].

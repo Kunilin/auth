@@ -6,9 +6,8 @@ package json
 
 import (
 	"bytes"
-	"strconv"
-
 	"fmt"
+	"strconv"
 )
 
 // Kind represents a token kind expressible in the JSON format.

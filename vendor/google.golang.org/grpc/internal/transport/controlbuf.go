@@ -21,13 +21,12 @@ package transport
 import (
 	"bytes"
 	"errors"
+	"fmt"
 	"net"
 	"runtime"
 	"strconv"
 	"sync"
 	"sync/atomic"
-
-	"fmt"
 
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/hpack"

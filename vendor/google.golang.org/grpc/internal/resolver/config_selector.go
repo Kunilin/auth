@@ -20,9 +20,8 @@
 package resolver
 
 import (
-	"sync"
-
 	"context"
+	"sync"
 
 	"google.golang.org/grpc/internal/serviceconfig"
 	"google.golang.org/grpc/metadata"

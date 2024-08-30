@@ -21,10 +21,9 @@ package grpc
 import (
 	"encoding/json"
 	"errors"
+	"fmt"
 	"reflect"
 	"time"
-
-	"fmt"
 
 	"google.golang.org/grpc/balancer"
 	"google.golang.org/grpc/balancer/pickfirst"

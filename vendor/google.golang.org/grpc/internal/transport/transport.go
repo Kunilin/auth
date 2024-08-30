@@ -22,17 +22,15 @@
 package transport
 
 import (
+	"context"
 	"errors"
+	"fmt"
 	"io"
 	"net"
 	"strings"
 	"sync"
 	"sync/atomic"
 	"time"
-
-	"fmt"
-
-	"context"
 
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/credentials"

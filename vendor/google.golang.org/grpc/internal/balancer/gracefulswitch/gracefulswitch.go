@@ -21,9 +21,8 @@ package gracefulswitch
 
 import (
 	"errors"
-	"sync"
-
 	"fmt"
+	"sync"
 
 	"google.golang.org/grpc/balancer"
 	"google.golang.org/grpc/balancer/base"

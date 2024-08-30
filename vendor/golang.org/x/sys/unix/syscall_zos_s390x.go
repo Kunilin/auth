@@ -15,6 +15,7 @@ package unix
 
 import (
 	"bytes"
+	"fmt"
 	"os"
 	"reflect"
 	"regexp"
@@ -24,8 +25,6 @@ import (
 	"sync"
 	"syscall"
 	"unsafe"
-
-	"fmt"
 )
 
 //go:noescape

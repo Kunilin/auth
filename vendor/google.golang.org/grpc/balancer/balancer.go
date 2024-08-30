@@ -21,12 +21,11 @@
 package balancer
 
 import (
+	"context"
 	"encoding/json"
 	"errors"
 	"net"
 	"strings"
-
-	"context"
 
 	"google.golang.org/grpc/channelz"
 	"google.golang.org/grpc/connectivity"

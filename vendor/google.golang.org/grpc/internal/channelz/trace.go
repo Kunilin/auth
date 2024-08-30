@@ -19,11 +19,10 @@
 package channelz
 
 import (
+	"fmt"
 	"sync"
 	"sync/atomic"
 	"time"
-
-	"fmt"
 
 	"google.golang.org/grpc/grpclog"
 )

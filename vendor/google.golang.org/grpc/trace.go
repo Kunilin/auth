@@ -20,13 +20,12 @@ package grpc
 
 import (
 	"bytes"
+	"fmt"
 	"io"
 	"net"
 	"strings"
 	"sync"
 	"time"
-
-	"fmt"
 )
 
 // EnableTracing controls whether to trace RPCs using the golang.org/x/net/trace package.

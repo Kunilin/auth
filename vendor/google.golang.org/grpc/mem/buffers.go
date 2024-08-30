@@ -26,10 +26,9 @@
 package mem
 
 import (
+	"fmt"
 	"sync"
 	"sync/atomic"
-
-	"fmt"
 )
 
 // A Buffer represents a reference counted piece of data (in bytes) that can be

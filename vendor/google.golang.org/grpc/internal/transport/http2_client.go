@@ -19,6 +19,8 @@
 package transport
 
 import (
+	"context"
+	"fmt"
 	"io"
 	"math"
 	"net"
@@ -29,10 +31,6 @@ import (
 	"sync"
 	"sync/atomic"
 	"time"
-
-	"fmt"
-
-	"context"
 
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/hpack"

@@ -8,12 +8,11 @@ package trace
 
 import (
 	"bytes"
+	"fmt"
 	"html/template"
 	"log"
 	"math"
 	"sync"
-
-	"fmt"
 
 	"golang.org/x/net/internal/timeseries"
 )

@@ -8,9 +8,8 @@ package unix
 
 import (
 	"bytes"
-	"unsafe"
-
 	"fmt"
+	"unsafe"
 )
 
 //go:noescape

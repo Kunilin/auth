@@ -6,11 +6,10 @@ package protojson
 
 import (
 	"encoding/base64"
+	"fmt"
 	"math"
 	"strconv"
 	"strings"
-
-	"fmt"
 
 	"google.golang.org/protobuf/encoding/protowire"
 	"google.golang.org/protobuf/internal/encoding/json"
